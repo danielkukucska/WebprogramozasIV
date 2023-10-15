@@ -1,0 +1,20 @@
+.bmi{
+    padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   gap: .5rem;
+}
+
+
+
+.height, .weight{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: .5rem;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: .5rem;
+}
