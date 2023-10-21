@@ -15,7 +15,6 @@ export default function BMI() {
 	const calculateBmi = () => setBmi(weight / Math.pow(height, 2));
 
 	const bmiResult = useMemo(() => {
-		console.log('bmiResult calculating');
 		if (bmi === null) return 'nem számítható';
 		if (bmi < 16) return 'kóros soványság';
 		if (bmi < 17) return 'mérsékelt soványság';
